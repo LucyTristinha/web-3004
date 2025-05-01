@@ -1,4 +1,4 @@
-#container{
+#container{/*id: so pode ser usando uma vez*/
     display: flex;
     justify-content: space-around;
     margin-top: 30px;
@@ -6,7 +6,7 @@
     background-color: bisque;
     
     }
-    .Caixa{
+    .Caixa{/*class:pode ser usado varias vezes na pagina */
     width: 300px;
     background-color: black;
     color: beige;
@@ -14,7 +14,7 @@
     border-radius: 10px;
     text-align: center;
     }
- img{
+ img{/*tag e o controle da tag do html */
 max-width: 55%;
 max-height: 55%;
 width: auto;
